@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd>
+
+<tiles-definitions>
+
+   <definition name="baseLayout" template="/baseLayout.jsp">
+      <put-attribute name="title"  value="Template"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+       <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/body.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>
+   </definition>
+
+   <definition name="login" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/Login.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="out" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/Login.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+    <definition name="ser" extends="baseLayout">
+      <put-attribute name="title"  value="Service"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/service.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="ser1" extends="baseLayout">
+      <put-attribute name="title"  value="Service1"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/service1.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="ser2" extends="baseLayout">
+      <put-attribute name="title"  value="Service2"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/service2.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="ser3" extends="baseLayout">
+      <put-attribute name="title"  value="Service3"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/service3.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="ser4" extends="baseLayout">
+      <put-attribute name="title"  value="Service4"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/service4.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="ser5" extends="baseLayout">
+      <put-attribute name="title"  value="Service5"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/service5.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+    <definition name="login1" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/login1.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+    <definition name="up" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/update.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="upp" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/update1.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="editImg" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/img.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+    <definition name="upImg" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/img.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+    <definition name="upd" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/upd.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="rej1" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/rej1.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+  
+<definition name="rej" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/rej.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="con" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/cons.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   <definition name="ab" extends="baseLayout">
+      <put-attribute name="title"  value="Login"/>
+      <put-attribute name="menu"   value="/Menu2.jsp"/>
+      <put-attribute name="banner" value="/banner.jsp"/>
+      <put-attribute name="body"   value="/ab.jsp"/>
+      <put-attribute name="footer"   value="/footer.jsp"/>      
+   </definition>
+   
+   
+  
+</tiles-definitions>
